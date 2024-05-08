@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import Smile from "../assets/images/smile.png";
+import { arrowBlackPrev } from "../assets/icons";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -15,7 +16,10 @@ const Navbar = () => {
         </NavLink>
         <nav className="nav">
           <div className={`navList ${openNav ? "active" : ""}`}>
-            <img className="w-[20px] h-[20px]" src={Smile} />
+            <img
+              className={`w-[20px] h-[20px] ${openNav ? "0" : "mr-[10px]"}`}
+              src={arrowBlackPrev}
+            />
             <NavLink
               to="/about"
               className={({ isActive }) =>
@@ -45,9 +49,7 @@ const Navbar = () => {
             onClick={() => setOpenNav((prev) => !prev)}
             className="hamburger"
           >
-            <span></span>
-            <span></span>
-            <span></span>
+            <img className="w-[20px] h-[20px]" src={Smile} />
           </div>
         </nav>
       </div>

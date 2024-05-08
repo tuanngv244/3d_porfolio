@@ -26,6 +26,7 @@ import arrow from "./arrow.svg";
 import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import arrowBlack from "./arrow-black.svg";
+import arrowBlackPrev from "./arrow-back-outline.svg";
 import soundoff from "./soundoff.png";
 
 export {
@@ -58,4 +59,5 @@ export {
   soundon,
   soundoff,
   arrowBlack,
+  arrowBlackPrev,
 };
