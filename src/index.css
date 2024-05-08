@@ -307,19 +307,31 @@ body:has(.card[data-color="green"]:hover) {
 
     a {
       font-size: 14px;
-      font-weight: bold;
+      font-weight: 600;
       color: white;
     }
   }
 
-  &:hover {
-    .navList {
-      width: var(--w-navbar);
-      transition: all 0.3s;
-    }
-  }
   .active {
     width: var(--w-navbar);
     transition: all 0.3s;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    --w-navbar-mobile: 195px;
+    .navList {
+      gap: 0 5px;
+      padding: 0 5px;
+    }
+    .active {
+      width: var(--w-navbar-mobile);
+      transition: all 0.3s;
+    }
+  }
+
+  .intro {
+    font-size: 22px;
   }
 }

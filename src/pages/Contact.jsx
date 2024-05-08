@@ -14,7 +14,7 @@ const Contact = () => {
       {alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <p className="text-[40px]  uppercase text-gray font-bold text-black text-strokete font-[Michroma,sans-serif]">
+        <p className="intro text-[40px]  uppercase text-gray font-bold text-black text-strokete font-[Michroma,sans-serif]">
           Do you have a project, do you have an idea?
           <br />
           If you feel like I am fit, Please contact us to build together.
@@ -38,7 +38,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="lg:w-1/2 w-full lg:max-w-[350px]  lg:h-[450px] md:max-w-[350px] max-w-[350px] md:h-[350px] h-[350px]">
+      <div className="lg:w-1/2 w-full xs:h-[200px] lg:max-w-[350px]  lg:h-[450px] md:max-w-[350px] max-w-[350px] md:h-[350px] h-[350px]">
         <Canvas
           camera={{
             position: [0, 0, 5],

@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container">
         <NavLink to="/" className="w-fit-content  py-[2px] px-[5px] relative">
           <span className=" relative blue-gradient_text text-lg font-bold z-[2]">
-            VanTuan
+            V.Tuan
           </span>
           <span className="absolute z-[1] rounded-md scale-110 rotate-[-3deg] w-full h-full bg-white shadow-sm top-0 left-0"></span>
         </NavLink>

@@ -47,7 +47,11 @@ const HomeInfo = () => {
       );
   }
 
-  return <div className=" bg-blur-white p-[10px] rounded-md">{content}</div>;
+  return (
+    <div className=" bg-blur-white p-[10px] rounded-md max-w-[95%] m-auto">
+      {content}
+    </div>
+  );
 };
 
 export default HomeInfo;
