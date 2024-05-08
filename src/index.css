@@ -320,7 +320,7 @@ body:has(.card[data-color="green"]:hover) {
 
 @media screen and (max-width: 768px) {
   .nav {
-    --w-navbar-mobile: 208px;
+    --w-navbar-mobile: 210px;
     .navList {
       gap: 0 5px;
       padding: 0 5px;
