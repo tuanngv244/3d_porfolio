@@ -30,7 +30,7 @@ const Contact = () => {
             </a>
             <a
               className="text-[16px] text-black heading-[24px]"
-              href="phone:0376600676"
+              href="tel:0376600676"
             >
               (+84) 376600676
             </a>
