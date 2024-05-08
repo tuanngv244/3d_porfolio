@@ -22,8 +22,12 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Software Engineer based in Vietnam. My nickname is Cyan, I'm a
+          Software Engineer with 2.5 years of experience, and I always want to
+          bring great experience to clients. I love this job, always to learn
+          and build up skills. I always try my best in every product with my
+          co-workers. It's great to connect with someone who shares similar
+          interests!
         </p>
       </div>
 
@@ -105,8 +109,6 @@ const About = () => {
           </VerticalTimeline>
         </div>
       </div>
-
-      <hr className="border-slate-200" />
     </section>
   );
 };

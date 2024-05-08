@@ -7,22 +7,19 @@ import { Loader } from "../components";
 import { arrow, arrowBlack } from "../assets/icons";
 
 const Contact = () => {
-  const [loading, setLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState("idle");
 
-  const handleFocus = () => setCurrentAnimation("walk");
-  const handleBlur = () => setCurrentAnimation("idle");
   return (
-    <section className="relative flex items-center lg:flex-row flex-col max-container">
+    <section className="relative flex items-center w-full h-screen overflow-hidden lg:flex-row flex-col max-container">
       {alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <p className="text-[32px]  uppercase text-gray font-bold text-black text-strokete font-[Michroma,sans-serif]">
+        <p className="text-[40px]  uppercase text-gray font-bold text-black text-strokete font-[Michroma,sans-serif]">
           Do you have a project, do you have an idea?
           <br />
           If you feel like I am fit, Please contact us to build together.
         </p>
-        <div className="flex items-center gap-2 mt-[30px]">
+        <div className="flex items-center gap-10 mt-[30px]">
           <img className="w-[30px] h-[30px] object-contain" src={arrowBlack} />
           <div className="flex flex-col gap-1">
             <a
@@ -41,7 +38,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="lg:w-1/2 w-full lg:h-auto md:h-[450px] h-[350px]">
+      <div className="lg:w-1/2 w-full lg:max-w-[350px]  lg:h-[450px] md:max-w-[350px] max-w-[350px] md:h-[350px] h-[350px]">
         <Canvas
           camera={{
             position: [0, 0, 5],
@@ -65,7 +62,7 @@ const Contact = () => {
               currentAnimation={currentAnimation}
               position={[0.5, 0.35, 0]}
               rotation={[12.629, -0.6, 0]}
-              scale={[0.5, 0.5, 0.5]}
+              scale={[0.7, 0.7, 0.7]}
             />
           </Suspense>
         </Canvas>

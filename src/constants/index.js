@@ -109,16 +109,15 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Tutor ReactJS Master Course",
+    title: "ReactJS Course Tutors",
     company_name: "CFD Circle",
     icon: cfd,
     iconBg: "rgb(222, 255, 251)",
     date: "May 2023 - Present 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Participating in ReactJS course tutors.",
+      "Developing and maintaining web applications using ReactJS and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -128,8 +127,8 @@ export const experiences = [
     iconBg: "rgb(238, 224, 246)",
     date: "Jul 2022 - Present 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using ReactJS, NextJS and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers,quality controls and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -141,10 +140,10 @@ export const experiences = [
     iconBg: "rgb(243, 219, 219)",
     date: "Jun 2021 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using ReactJS, NextJS and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learn and build up skills ReactJS/NextJS",
     ],
   },
 ];
@@ -170,50 +169,63 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    theme: "btn-back-pink",
+    name: "Sakura ISOFH",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Sakura ISOFH is a management and operation system for medical facilities, hospitals, and medical centers.",
   },
   {
     iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    theme: "btn-back-blue",
+    name: "IVI Work",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "Sakura ISOFH is a work management software, with many features such as boards, digital signatures, meetings, notifications...",
+    link: "https://iviwork.isofh.com",
   },
   {
     iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Car Finding App",
+    theme: "btn-back-purple",
+    name: "IX Health (freelancer project) ",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "IX Health is a platform that provides users with gym exercises according to the gym center's regimen.",
+    link: "https://me.ix-health.com/",
   },
   {
     iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    theme: "btn-back-green",
+    name: "IRIS Pharmacy",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "IRIS is a smart online pharmacy management platform, helps to fully digitize (Platform). It brings us features such as POS, product and inventory manager, reports,...",
+    link: "https://ipharma.vn/",
   },
   {
     iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
+    theme: "btn-back-yellow",
+    name: "JOBS ON DEMAND",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "JobsOnDemand (JOD), an Aptus company, started in 2015 by creating a secure platform that instantly connects hirers with freelancers (platform).",
+    link: "https://www.jodapp.com/",
   },
   {
     iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    theme: "btn-back-green",
+    name: "BAMBUUP",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Bambuup is the platform supported for connecting startup potention and investments.",
+    link: "https://bambuup.com/",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-black",
+    name: "Portfolio",
+    description: "Personal project.",
+    link: "https://vantuan2404.github.io/Tuan",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-blue",
+    name: "Furnitown",
+    description: "Personal project.",
+    link: "https://vantuan2404.github.io/Furnitown/",
   },
 ];

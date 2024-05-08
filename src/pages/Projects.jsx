@@ -38,30 +38,34 @@ const Projects = () => {
               <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}
               </h4>
-              <p className="mt-2 text-slate-500">{project.description}</p>
-              <div className="mt-5 flex items-center gap-2 font-poppins">
-                <Link
-                  to={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue-600"
-                >
-                  Live Link
-                </Link>
-                <img
-                  src={arrow}
-                  alt="arrow"
-                  className="w-4 h-4 object-contain"
-                />
-              </div>
+              <p className="mt-2 text-slate-500 trunc-text">
+                {project.description}
+              </p>
+              {project?.link ? (
+                <div className="mt-5 flex items-center gap-2 font-poppins">
+                  <Link
+                    to={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[14px] font-semibold text-blue-600"
+                  >
+                    Live Link
+                  </Link>
+                  <img
+                    src={arrow}
+                    alt="arrow"
+                    className="w-4 h-4 object-contain"
+                  />
+                </div>
+              ) : (
+                <p className="font-poppins mt-5 text-[14px] font-semibold text-black-600">
+                  Private project
+                </p>
+              )}
             </div>
           </div>
         ))}
       </div>
-
-      <hr className="border-slate-200" />
-
-      <CTA />
     </section>
   );
 };
